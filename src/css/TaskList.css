@@ -1,0 +1,7 @@
+#list {
+	height: 61.5%;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}

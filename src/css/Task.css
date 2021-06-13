@@ -1,0 +1,39 @@
+#list-entry {
+	text-align: left;
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.entry-text {
+	color: black;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.icons {
+	margin-right: 5%;
+}
+.icons * {
+	height: 35%;
+	padding: 5px;
+	cursor: pointer;
+	transition: all 100ms linear;
+	margin: 2px;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+#check-icon,
+#trash-icon {
+	color: black;
+}
+
+#check-icon:hover {
+	color: green !important;
+}
+#trash-icon:hover {
+	color: red;
+}
